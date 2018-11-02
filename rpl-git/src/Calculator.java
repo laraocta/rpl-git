@@ -33,8 +33,14 @@ public class Calculator {
         return a/b;
         
     }
+
+    
+    public float min(float a, float b){
+        return Math.min(a, b);
+
     public float max(float a, float b)
     {
    return Math.max(a,b);
+
     }
 }
